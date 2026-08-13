@@ -14,8 +14,6 @@ A clean and customizable logo selector that lets users choose a streaming servic
 
 * 🔄 Switch between logos easily
 
-* 🖼️ Support custom logos
-
 * 📱 Clean and responsive design
 
 * ⚡ Fast and simple logo selection
