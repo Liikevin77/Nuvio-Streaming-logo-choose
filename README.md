@@ -1,43 +1,31 @@
 # Nuvio-Streaming-logo-choose
-Add a streaming-service logo selector to Nuvio Media Player, allowing users to choose from different service logos such as Netflix, Disney+, Prime Video, Hulu, Max, Apple TV+, and other available services.
 
+Add a streaming-service logo selector to Nuvio Media Player, allowing users to choose from different service logos such as Netflix, Disney+, Prime Video, Hulu, Max, Apple TV+, and other available services.
 
 # 🎬 Streaming Service Logo Selector
 
-A clean and customizable logo selector that lets users choose a streaming service and display its logo in the media player.
+A clean and customizable logo collection that lets users choose a streaming service and display its logo in the media player.
 
 ## ✨ Features
 
 * 🎨 Choose from multiple streaming service logos
-
-* 👀 Preview the selected logo instantly
-
-* 🔄 Switch between logos easily
-
+* 👀 Preview the available logos
+* 🔄 Easily switch between different logos
 * 📱 Clean and responsive design
-
 * ⚡ Fast and simple logo selection
+* 🌐 Use logos directly through **jsDelivr CDN**
 
 ## 📺 Supported Services
 
 * 🔴 Netflix
-
 * 🔵 Disney+
-
 * 🔷 Prime Video
-
 * ⚫ Max
-
 * 🟢 Hulu
-
 * 🍎 Apple TV+
-
 * 🟡 Paramount+
-
 * 🦚 Peacock
-
 * 🟠 Crunchyroll
-
 * ➕ Custom services
 
 ## 🎯 Logo Selection
@@ -68,16 +56,35 @@ Streaming service names and logos belong to their respective trademark owners. U
 
 ---
 
-
 ## 📦 CDN Links
 
-🚀 This repository provides CDN links for streaming service logos stored on GitHub.
+🚀 The logos are available inside the folders of this repository.
 
-🌐 The images are delivered through jsDelivr CDN, allowing them to load quickly and be used directly in websites, applications, and other projects.
+🖼️ **Browse the folders and look at the available logo images** to find the streaming service logo you want.
 
-🖼️ Each CDN link points to a specific logo file in this repository.
+🌐 Once you find the logo you want to use, **copy its jsDelivr CDN link** and use it directly in your project.
 
-📋 Simply copy the CDN URL and use it wherever an image URL is supported.
+### 🔗 How it works
+
+**1.** Open the repository and browse the logo folders.
+
+**2.** Look at the available images and choose the logo you need.
+
+**3.** Copy the corresponding **jsDelivr CDN link** for that image.
+
+**4.** Use the CDN link anywhere an image URL is supported.
+
+### 🚀 jsDelivr Example : ...
+
+```text
+https://cdn.jsdelivr.net/gh/Liikevin77/Nuvio-Streaming-logo-choose@main/
+```
+
+### 📂 Repository
+
+[https://github.com/Liikevin77/Nuvio-Streaming-logo-choose](https://github.com/Liikevin77/Nuvio-Streaming-logo-choose)
+
+**See the logo → choose the one you need → copy its CDN link → use it in your project.**
 
 ---
 
