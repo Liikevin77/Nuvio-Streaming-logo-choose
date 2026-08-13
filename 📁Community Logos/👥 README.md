@@ -2,30 +2,56 @@
 
 Welcome to the **Community Logos** section!
 
-This folder is for community members who want to contribute streaming-service logos.
+This folder is for community members who want to contribute **streaming-service logos** that can be used in your collection.
 
 ## 📌 How to contribute
 
 Each streaming service should have its **own folder**.
+
+### 1️⃣ Create a folder
+
+Create a new folder for the streaming service you want to add.
 
 Example:
 
 ```text
 community-logos/
 └── 🔴 Hbo max/
-    ├── logo.png
-    └── cdn-link.txt
 ```
 
-### 🖼️ File 1 — Image
+### 2️⃣ Upload the logo or GIF
 
-Upload the streaming-service logo as an image file, for example:
+Upload the streaming-service **PNG or GIF** into your new folder.
+
+You can add one or multiple images if needed.
+
+Example:
 
 ```text
-logo.png
+🔴 Hbo max/
+├── logo.png
+└── logo.gif
 ```
 
-### 🔗 File 2 — CDN Link
+### 3️⃣ Get the jsDelivr CDN link
+
+After uploading your PNG or GIF:
+
+1. Go to **[https://www.jsdelivr.com/github](https://www.jsdelivr.com/github)**
+2. Enter or select this GitHub repository.
+3. Find the **PNG or GIF** you uploaded.
+4. Click **Get CDN Link**.
+5. Copy the **jsDelivr CDN link**.
+
+The CDN link is the link you should use in your collection.
+
+Example:
+
+```text
+https://cdn.jsdelivr.net/gh/Liikevin77/Nuvio-Streaming-logo-choose@main/community-logos/Hbo%20max/logo.png
+```
+
+### 4️⃣ Add the CDN link
 
 Create a file called:
 
@@ -33,23 +59,30 @@ Create a file called:
 cdn-link.txt
 ```
 
-and put the jsDelivr CDN link to your uploaded image inside it.
+Then paste the jsDelivr CDN link inside it.
 
-Example:
+Your folder should look like:
 
 ```text
-https://cdn.jsdelivr.net/gh/Liikevin77/Nuvio-Streaming-logo-choose@main/community-logos/logo.png
+🔴 Hbo max/
+├── logo.png
+├── logo.gif
+└── cdn-link.txt
 ```
+
+If you uploaded multiple images, you can include their CDN links in `cdn-link.txt`.
 
 ## ⚠️ Important
 
-* Do **not** modify anything inside `📁 streaming-logo-selector/`.
-* Put community submissions inside `📁 community-logos/`.
-* Create **one folder per streaming service**.
-* Include the **image + CDN link** in the service folder.
-* Use a clear streaming-service name.
-* Make sure the CDN link points to the correct uploaded image.
-* Keep the repository structure clean.
+* 🚫 **Do not modify, replace, or remove anything inside `📁 streaming-logo-selector/`.**
+* 📁 Put all community submissions inside `📁 community-logos/`.
+* 📂 Create **one folder per streaming service**.
+* 🖼️ PNG and GIF files are supported.
+* 🔗 Get the CDN link from **jsDelivr GitHub** and use that link in your collection.
+* 📝 Include a `cdn-link.txt` file with the CDN link(s).
+* ✨ Use a clear streaming-service name.
+* ✅ Make sure each CDN link points to the correct uploaded image.
+* 🧹 Keep the repository structure clean.
 
 ## 📂 Example
 
@@ -63,6 +96,7 @@ https://cdn.jsdelivr.net/gh/Liikevin77/Nuvio-Streaming-logo-choose@main/communit
     │
     ├── 🔴 Hbo max/
     │   ├── logo.png
+    │   ├── logo.gif
     │   └── cdn-link.txt
     │
     ├── 🔵 My Streaming Service/
@@ -70,10 +104,12 @@ https://cdn.jsdelivr.net/gh/Liikevin77/Nuvio-Streaming-logo-choose@main/communit
     │   └── cdn-link.txt
     │
     └── 🟢 Another Service/
-        ├── logo.png
+        ├── logo.gif
         └── cdn-link.txt
 ```
 
 ## ❤️ Thank You
 
 Thank you for contributing and helping expand the available streaming-service logos!
+
+**Create → Upload → Get the jsDelivr CDN link → Add it to your collection.** 🚀
