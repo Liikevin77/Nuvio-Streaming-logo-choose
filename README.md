@@ -70,4 +70,17 @@ Streaming service names and logos belong to their respective trademark owners. U
 
 ---
 
+
+## 📦 CDN Links
+
+🚀 This repository provides CDN links for streaming service logos stored on GitHub.
+
+🌐 The images are delivered through jsDelivr CDN, allowing them to load quickly and be used directly in websites, applications, and other projects.
+
+🖼️ Each CDN link points to a specific logo file in this repository.
+
+📋 Simply copy the CDN URL and use it wherever an image URL is supported.
+
+---
+
 ### 🚀 Simple. Clean. Customizable.
